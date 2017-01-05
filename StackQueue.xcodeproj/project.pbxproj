@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A5A7ECF1E1EC78D00557413 /* StackQueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7ECE1E1EC78D00557413 /* StackQueue.hpp */; };
-		7A5A7ED11E1EC78D00557413 /* StackQueuePriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7ED01E1EC78D00557413 /* StackQueuePriv.hpp */; };
-		7A5A7ED31E1EC78D00557413 /* StackQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A7ED21E1EC78D00557413 /* StackQueue.cpp */; };
+		7A5A7EE11E1EC80800557413 /* OptionalType.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7ED91E1EC80800557413 /* OptionalType.h */; };
+		7A5A7EE21E1EC80800557413 /* Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EDA1E1EC80800557413 /* Queue.h */; };
+		7A5A7EE31E1EC80800557413 /* QueueModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EDB1E1EC80800557413 /* QueueModel.h */; };
+		7A5A7EE41E1EC80800557413 /* QueueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EDC1E1EC80800557413 /* QueueView.h */; };
+		7A5A7EE51E1EC80800557413 /* Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EDD1E1EC80800557413 /* Stack.h */; };
+		7A5A7EE61E1EC80800557413 /* StackModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EDE1E1EC80800557413 /* StackModel.h */; };
+		7A5A7EE81E1EC80800557413 /* StackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5A7EE01E1EC80800557413 /* StackView.h */; };
+		7A5A7EED1E1ED1B800557413 /* Debugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A7EEB1E1ED1B800557413 /* Debugger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A5A7ECB1E1EC78D00557413 /* libStackQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStackQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5A7ECE1E1EC78D00557413 /* StackQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackQueue.hpp; sourceTree = "<group>"; };
-		7A5A7ED01E1EC78D00557413 /* StackQueuePriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackQueuePriv.hpp; sourceTree = "<group>"; };
-		7A5A7ED21E1EC78D00557413 /* StackQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackQueue.cpp; sourceTree = "<group>"; };
+		7A5A7ED91E1EC80800557413 /* OptionalType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalType.h; sourceTree = "<group>"; };
+		7A5A7EDA1E1EC80800557413 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		7A5A7EDB1E1EC80800557413 /* QueueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueModel.h; sourceTree = "<group>"; };
+		7A5A7EDC1E1EC80800557413 /* QueueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueView.h; sourceTree = "<group>"; };
+		7A5A7EDD1E1EC80800557413 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		7A5A7EDE1E1EC80800557413 /* StackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackModel.h; sourceTree = "<group>"; };
+		7A5A7EE01E1EC80800557413 /* StackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackView.h; sourceTree = "<group>"; };
+		7A5A7EEB1E1ED1B800557413 /* Debugger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debugger.cpp; sourceTree = "<group>"; };
+		7A5A7EF01E1EDA7800557413 /* OperationalQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationalQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +60,41 @@
 		7A5A7ECD1E1EC78D00557413 /* StackQueue */ = {
 			isa = PBXGroup;
 			children = (
-				7A5A7ECE1E1EC78D00557413 /* StackQueue.hpp */,
-				7A5A7ED01E1EC78D00557413 /* StackQueuePriv.hpp */,
-				7A5A7ED21E1EC78D00557413 /* StackQueue.cpp */,
+				7A5A7EEB1E1ED1B800557413 /* Debugger.cpp */,
+				7A5A7ED91E1EC80800557413 /* OptionalType.h */,
+				7A5A7EE91E1ED15A00557413 /* Queue */,
+				7A5A7EEA1E1ED16400557413 /* Stack */,
 			);
 			path = StackQueue;
+			sourceTree = "<group>";
+		};
+		7A5A7EE91E1ED15A00557413 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A7EF11E1EDA8D00557413 /* OperationalQueue */,
+				7A5A7EDA1E1EC80800557413 /* Queue.h */,
+				7A5A7EDB1E1EC80800557413 /* QueueModel.h */,
+				7A5A7EDC1E1EC80800557413 /* QueueView.h */,
+			);
+			name = Queue;
+			sourceTree = "<group>";
+		};
+		7A5A7EEA1E1ED16400557413 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A7EDD1E1EC80800557413 /* Stack.h */,
+				7A5A7EDE1E1EC80800557413 /* StackModel.h */,
+				7A5A7EE01E1EC80800557413 /* StackView.h */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
+		7A5A7EF11E1EDA8D00557413 /* OperationalQueue */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A7EF01E1EDA7800557413 /* OperationalQueue.h */,
+			);
+			name = OperationalQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,8 +104,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5A7ED11E1EC78D00557413 /* StackQueuePriv.hpp in Headers */,
-				7A5A7ECF1E1EC78D00557413 /* StackQueue.hpp in Headers */,
+				7A5A7EE51E1EC80800557413 /* Stack.h in Headers */,
+				7A5A7EE61E1EC80800557413 /* StackModel.h in Headers */,
+				7A5A7EE31E1EC80800557413 /* QueueModel.h in Headers */,
+				7A5A7EE41E1EC80800557413 /* QueueView.h in Headers */,
+				7A5A7EE81E1EC80800557413 /* StackView.h in Headers */,
+				7A5A7EE21E1EC80800557413 /* Queue.h in Headers */,
+				7A5A7EE11E1EC80800557413 /* OptionalType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5A7ED31E1EC78D00557413 /* StackQueue.cpp in Sources */,
+				7A5A7EED1E1ED1B800557413 /* Debugger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +307,7 @@
 				7A5A7ED81E1EC78D00557413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
